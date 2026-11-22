@@ -1,0 +1,118 @@
+CAMINO DE RONDA · informe de la carretera construida
+====================================================
+Longitud: 43.01 km (10753 estaciones cada 4 m)
+Puntos kilométricos: del PK 46.67 (San Pedro) al PK 3.25 (Ronda). Origen: 35 señales de nivelación del IGN
+Altitud: 48 m en la salida, 741 m en la llegada, máxima 1125 m en el PK 16.5. Subida acumulada: 1457 m
+Pendiente máxima: 11.0 % (PK 30.8). Curva más cerrada: radio 33 m (PK 23.1). Curvas de radio < 120 m: 239 (5.6 por km)
+Puentes: 776 m en total. Quitamiedos: 23.1 km a la izquierda y 7.8 km a la derecha (sentido Ronda)
+
+Lo que debería salir (datos reales): unos 43 km, PK 46,7 → 3,4, salida a unos 58 m de altitud,
+Puerto del Madroño (PK 25,5) a 1.060 m, techo de la carretera cerca del PK 15 (unos 1.095 m), llegada a unos 740 m.
+
+Señales de nivelación del IGN encontradas sobre el trazado: 35 de 46
+Altitud corregida con 28 señales. El modelo del terreno se desviaba de media +1.8 m (media absoluta 5.0 m, máxima 14.6 m).
+  PK real · altitud real · altitud en el juego · diferencia · distancia de la señal al eje
+   46.20 ·    56.6 m ·    56.6 m ·   +0.0 m ·    4 m
+   45.25 ·   105.6 m ·   105.8 m ·   +0.1 m ·    5 m
+   44.60 ·   149.3 m ·   149.0 m ·   -0.3 m ·    5 m
+   43.50 ·   227.9 m ·   227.8 m ·   +0.0 m ·    5 m
+   42.20 ·   286.2 m ·   286.3 m ·   +0.1 m ·    8 m
+   40.50 ·   359.5 m ·   360.0 m ·   +0.5 m ·   12 m
+   39.90 ·   395.8 m ·   395.4 m ·   -0.4 m ·    3 m  (posición aproximada)
+   38.20 ·   466.3 m ·   466.4 m ·   +0.1 m ·   10 m
+   37.30 ·   512.4 m ·   515.5 m ·   +3.1 m ·   28 m  (trazado antiguo: solo se usa el PK)
+   36.05 ·   554.2 m ·   555.7 m ·   +1.6 m ·    5 m  (trazado antiguo: solo se usa el PK)
+   35.30 ·   585.4 m ·   585.6 m ·   +0.2 m ·    5 m
+   34.07 ·   659.2 m ·   664.6 m ·   +5.4 m ·    5 m
+   32.80 ·   735.0 m ·   734.5 m ·   -0.5 m ·    6 m
+   31.92 ·   779.5 m ·   779.7 m ·   +0.2 m ·    4 m
+   31.12 ·   808.2 m ·   812.1 m ·   +4.0 m ·    4 m
+   29.95 ·   840.2 m ·   840.3 m ·   +0.1 m ·    5 m  (posición aproximada)
+   27.95 ·   931.4 m ·   937.8 m ·   +6.4 m ·   58 m  (posición aproximada)
+   27.40 ·   965.0 m ·   965.8 m ·   +0.8 m ·    6 m
+   26.30 ·  1043.9 m ·  1044.1 m ·   +0.2 m ·    7 m
+   25.48 ·  1060.2 m ·  1060.0 m ·   -0.2 m ·    8 m
+   19.45 ·  1035.6 m ·  1035.6 m ·   +0.0 m ·    6 m
+   15.15 ·  1093.0 m ·  1093.0 m ·   +0.1 m ·    5 m
+   13.60 ·  1067.9 m ·  1067.9 m ·   +0.0 m ·   12 m  (posición aproximada)
+   12.95 ·  1049.1 m ·  1049.2 m ·   +0.1 m ·   24 m  (posición aproximada)
+   12.55 ·  1046.3 m ·  1046.0 m ·   -0.4 m ·    7 m
+   10.70 ·   979.6 m ·   980.1 m ·   +0.5 m ·    6 m  (posición aproximada)
+   10.30 ·   969.5 m ·   969.3 m ·   -0.2 m ·    9 m
+    9.10 ·   939.3 m ·   939.0 m ·   -0.2 m ·    8 m
+    8.40 ·   948.9 m ·   949.2 m ·   +0.3 m ·    6 m
+    7.50 ·   953.2 m ·   953.5 m ·   +0.3 m ·    6 m
+    7.06 ·   935.5 m ·   935.0 m ·   -0.5 m ·    9 m
+    6.20 ·   905.2 m ·   924.8 m ·  +19.7 m ·   84 m  (posición aproximada)
+    5.10 ·   816.7 m ·   817.7 m ·   +1.0 m ·    8 m
+    4.40 ·   772.3 m ·   772.2 m ·   +0.0 m ·    9 m
+    3.70 ·   748.6 m ·   754.6 m ·   +6.0 m ·    5 m  (trazado antiguo: solo se usa el PK)
+
+Paradas y sitios (62):
+  PK 45.93 · der · venta      · 64 x 9 m · Venta
+  PK 44.86 · izq · venta      · 64 x 26 m · Venta Los Almendros
+  PK 43.54 · der · area       · 52 x 26 m · (sin nombre)
+  PK 42.20 · der · venta      · 50 x 14 m · Mesón El Coto
+  PK 39.19 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 39.10 · izq · cruce      · 55 x 7 m · La Zagaleta
+  PK 36.82 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 36.50 · der · area       · 60 x 7 m · Apartadero
+  PK 35.87 · der · venta      · 64 x 23 m · (sin nombre)
+  PK 35.10 · izq · area       · 40 x 7 m · La Palmitera (casa de peones camineros)
+  PK 34.90 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 33.10 · izq · mirador    · 52 x 14 m · (sin nombre)
+  PK 31.37 · izq · mirador    · 52 x 26 m · (sin nombre)
+  PK 30.21 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 30.17 · izq · cruce      · 26 x 6 m · (sin nombre)
+  PK 29.94 · der · fuente     · 44 x 7 m · Fuente El Chorrillo
+  PK 28.89 · izq · area       · 99 x 24 m · (sin nombre)
+  PK 28.20 · izq · cruce      · 26 x 6 m · (sin nombre)
+  PK 27.67 · izq · venta      · 70 x 26 m · Venta El Madroño
+  PK 26.07 · izq · cruce      · 50 x 7 m · Puerto El Madroño
+Pujerra
+  PK 25.33 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 25.26 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 24.33 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 24.28 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 23.63 · izq · area       · 52 x 26 m · (sin nombre)
+  PK 22.65 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 22.60 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 22.27 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 22.22 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 21.85 · izq · area       · 52 x 26 m · (sin nombre)
+  PK 21.53 · izq · area       · 52 x 23 m · (sin nombre)
+  PK 20.97 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 20.89 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 19.15 · izq · cruce      · 50 x 7 m · Igualeja
+  PK 18.44 · izq · cruce      · 26 x 6 m · (sin nombre)
+  PK 17.26 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 17.08 · izq · area       · 69 x 19 m · (sin nombre)
+  PK 16.01 · izq · area       · 52 x 26 m · Antigua caseta de la Cruz Roja
+  PK 15.16 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 15.04 · izq · cruce      · 26 x 6 m · (sin nombre)
+  PK 14.71 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 14.66 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 14.53 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK 13.67 · der · cruce      · 26 x 6 m · Camino de Cajigales
+  PK 12.74 · izq · venta      · 99 x 26 m · La Laja
+  PK 11.84 · der · cruce      · 26 x 6 m · Camino de Las Cobatillas
+  PK 11.61 · izq · gasolinera · 90 x 34 m · E.S. La Ventilla
+  PK 11.30 · izq · cruce      · 45 x 7 m · Parauta · Cartajima
+  PK 10.43 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK  9.45 · izq · mirador    · 60 x 12 m · Mirador del Guarda Forestal
+  PK  9.08 · izq · cruce      · 45 x 8 m · Cantera
+  PK  8.54 · der · cruce      · 26 x 6 m · Camino de los Linarejos
+  PK  8.17 · izq · cruce      · 26 x 6 m · (sin nombre)
+  PK  7.06 · der · venta      · 50 x 14 m · Restaurante La Serrana
+  PK  6.99 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK  5.84 · izq · cruce      · 26 x 6 m · (sin nombre)
+  PK  5.77 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK  5.34 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK  4.21 · der · cruce      · 26 x 6 m · Camino Zona Piña-El Manco
+  PK  3.98 · der · venta      · 64 x 26 m · Venta La Parrilla
+  PK  3.80 · der · cruce      · 26 x 6 m · (sin nombre)
+  PK  3.80 · izq · cruce      · 26 x 6 m · (sin nombre)
+
+Edificios: 194 · Carteles y señales: 98 · Glorietas: 3
+
+Teselas de altitud: 19 correctas, 0 fallidas.

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Ronda Simulator · Carretera de Ronda</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #0a1018; overflow: hidden; touch-action: none;
+                 -webkit-user-select: none; user-select: none; font-family: system-ui, sans-serif; color: #eef0f2; }
+    #unity-canvas { position: fixed; inset: 0; width: 100vw; height: 100vh; height: 100dvh; display: block; background: #0a1018; }
+    #carga { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; }
+    @font-face { font-family: 'Racing'; src: url('StreamingAssets/RacingSansOne-Regular.ttf'); }
+    #carga h1 { margin: 0; font-family: 'Racing', system-ui, sans-serif; font-weight: 400; font-size: clamp(30px, 7vw, 72px); }
+    #carga small { color: #f58528; letter-spacing: .12em; font-weight: 700; }
+    #barra { width: min(420px, 70vw); height: 8px; background: rgba(255,255,255,.18); border-radius: 4px; overflow: hidden; }
+    #lleno { width: 0; height: 100%; background: #f58528; }
+    #gira { position: fixed; inset: 0; display: none; align-items: center; justify-content: center; text-align: center;
+            background: #0a1018; font-size: 22px; padding: 24px; z-index: 10; }
+    @media (orientation: portrait) and (pointer: coarse) { #gira { display: flex; } }
+  </style>
+</head>
+<body>
+  <canvas id="unity-canvas" tabindex="-1"></canvas>
+  <div id="carga"><h1>Ronda Simulator</h1><small>CARRETERA DE RONDA</small><div id="barra"><div id="lleno"></div></div></div>
+  <div id="gira">Gira el móvil: el juego se conduce en horizontal</div>
+  <script src="Build/Ronda Web.loader.js"></script>
+  <script>
+    var canvas = document.querySelector("#unity-canvas");
+    createUnityInstance(canvas, {
+      dataUrl: "Build/Ronda Web.data",
+      frameworkUrl: "Build/Ronda Web.framework.js",
+      codeUrl: "Build/Ronda Web.wasm",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "DefaultCompany",
+      productName: "Ronda HD",
+      productVersion: "0.1.0",
+      matchWebGLToCanvasSize: true,
+      devicePixelRatio: Math.min(window.devicePixelRatio || 1, 1.5)
+    }, function (p) {
+      document.querySelector("#lleno").style.width = Math.round(p * 100) + "%";
+    }).then(function () {
+      document.querySelector("#carga").style.display = "none";
+      // Al primer toque: pantalla completa y, si el móvil deja, bloqueo en horizontal
+      document.addEventListener("pointerdown", function () {
+        var el = document.documentElement;
+        if (!document.fullscreenElement && el.requestFullscreen && matchMedia("(pointer: coarse)").matches) {
+          el.requestFullscreen().then(function () {
+            if (screen.orientation && screen.orientation.lock) screen.orientation.lock("landscape").catch(function () {});
+          }).catch(function () {});
+        }
+      }, { once: true });
+    }).catch(function (m) { alert(m); });
+  </script>
+</body>
+</html>

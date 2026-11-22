@@ -1,0 +1,32 @@
+# PARADAS Y SITIOS DE LA CARRETERA (A-397, de San Pedro a Ronda)
+# v6 · Paradas y sitios de la A-397 (puedes editar este archivo; no borres la marca v6)
+# Cada línea:  PK ; lado ; tipo ; nombre ; largo ; ancho
+#   PK    = punto kilométrico real (los números de los hitos). También vale  lat,lon  (coordenadas)
+#   lado  = izq / der (yendo hacia Ronda) o auto
+#   tipo  = venta, gasolinera, area, mirador, fuente, cruce, radar, puerto, cartel
+#   largo y ancho en metros (opcionales)
+# Además de esta lista, el juego añade solo lo que encuentra en el mapa (aparcamientos, cruces, edificios...).
+# Corrige aquí lo que no cuadre con la realidad: tú conoces la carretera mejor que nadie.
+
+46.2 ; der ; cartel ; Paso bajo la AP-7
+42.2 ; auto ; venta ; Mesón El Coto ; 50 ; 14
+36.544627,-5.023305 ; izq ; cruce ; La Zagaleta ; 55 ; 7
+39.25 ; izq ; cartel ; La Zagaleta
+36.5 ; der ; area ; Apartadero ; 60 ; 7
+35.1 ; auto ; area ; La Palmitera (casa de peones camineros) ; 40 ; 7
+30.45 ; der ; radar ; RADAR DE TRAMO
+36.58667,-5.06750 ; der ; fuente ; Fuente El Chorrillo ; 44 ; 7
+36.59889,-5.07389 ; auto ; venta ; Venta El Madroño ; 70 ; 18
+25.5 ; der ; puerto ; PUERTO DEL MADROÑO\n1.060 m
+15.15 ; izq ; area ; Antigua caseta de la Cruz Roja ; 30 ; 6
+36.611759,-5.074216 ; izq ; cruce ; Puerto El Madroño\nPujerra ; 50 ; 7
+36.628875,-5.094698 ; izq ; cruce ; Igualeja ; 50 ; 7
+36.672912,-5.120308 ; izq ; cruce ; Parauta · Cartajima ; 45 ; 7
+36.689916,-5.120458 ; izq ; cruce ; Cantera ; 45 ; 8
+9.28 ; izq ; cartel ; Cantera
+9.45 ; izq ; mirador ; Mirador del Guarda Forestal ; 60 ; 12
+36.670389,-5.118194 ; auto ; gasolinera ; E.S. La Ventilla ; 90 ; 22
+11.05 ; der ; radar ; RADAR
+7.06 ; der ; venta ; Restaurante La Serrana ; 50 ; 14
+7.0 ; izq ; radar ; RADAR
+3.7 ; der ; venta ; Venta La Parrilla ; 50 ; 14
