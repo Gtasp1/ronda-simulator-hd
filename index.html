@@ -19,15 +19,28 @@
     #gira { position: fixed; inset: 0; display: none; align-items: center; justify-content: center; text-align: center;
             background: #0a1018; font-size: 22px; padding: 24px; z-index: 10; }
     @media (orientation: portrait) and (pointer: coarse) { #gira { display: flex; } }
+    #completa { position: fixed; top: 10px; right: 10px; z-index: 5; display: none; border: 0; border-radius: 22px;
+                padding: 10px 16px; font: 700 15px system-ui, sans-serif; color: #10151c; background: rgba(245,133,40,.9); }
+    @media (pointer: coarse) { #completa { display: block; } }
+    :fullscreen #completa { display: none !important; }
   </style>
 </head>
 <body>
   <canvas id="unity-canvas" tabindex="-1"></canvas>
   <div id="carga"><h1>Ronda Simulator</h1><small>CARRETERA DE RONDA</small><div id="barra"><div id="lleno"></div></div></div>
   <div id="gira">Gira el móvil: el juego se conduce en horizontal</div>
+  <button id="completa" type="button">Pantalla completa</button>
   <script src="Build/Ronda Web.loader.js"></script>
   <script>
     var canvas = document.querySelector("#unity-canvas");
+    function pantallaCompleta() {
+      var el = document.documentElement;
+      if (document.fullscreenElement || !el.requestFullscreen) return;
+      el.requestFullscreen().then(function () {
+        if (screen.orientation && screen.orientation.lock) screen.orientation.lock("landscape").catch(function () {});
+      }).catch(function () {});
+    }
+    document.querySelector("#completa").addEventListener("click", pantallaCompleta);
     createUnityInstance(canvas, {
       dataUrl: "Build/Ronda Web.data",
       frameworkUrl: "Build/Ronda Web.framework.js",
@@ -43,13 +56,9 @@
     }).then(function () {
       document.querySelector("#carga").style.display = "none";
       // Al primer toque: pantalla completa y, si el móvil deja, bloqueo en horizontal
+      // En el móvil, al primer toque se pone a pantalla completa (y queda el botón por si se sale)
       document.addEventListener("pointerdown", function () {
-        var el = document.documentElement;
-        if (!document.fullscreenElement && el.requestFullscreen && matchMedia("(pointer: coarse)").matches) {
-          el.requestFullscreen().then(function () {
-            if (screen.orientation && screen.orientation.lock) screen.orientation.lock("landscape").catch(function () {});
-          }).catch(function () {});
-        }
+        if (matchMedia("(pointer: coarse)").matches) pantallaCompleta();
       }, { once: true });
     }).catch(function (m) { alert(m); });
   </script>
